@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# NPM cache
+.npm-cache/
+
+# SQLite Database
+implementation/sqlite_lab.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
