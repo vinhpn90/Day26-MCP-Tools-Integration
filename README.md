@@ -17,14 +17,20 @@ This project is a Model Context Protocol (MCP) server that connects to a SQLite 
   - **tests/**:
     - **[test_server.py](https://github.com/vinhpn90/Day26-MCP-Tools-Integration/blob/main/implementation/tests/test_server.py)**: Automated unit test suite using Pytest.
 
-## Demo Video
+## Demo Video and Screenshots
 
+### Demo Video
 Here is a short screen recording showing the database initialization, running unit tests, and executing programmatic verification tests:
-
-https://github.com/user-attachments/assets/ or you can view it directly:
 <video src="demo.mov" controls width="100%"></video>
 
-Alternatively, click here to watch/download the file: [demo.mov](https://github.com/vinhpn90/Day26-MCP-Tools-Integration/blob/main/demo.mov)
+### MCP Inspector Screenshots
+Below are the screenshots of the MCP Inspector displaying the discovered tools and resources:
+
+#### 1. Registered Tools
+![MCP Inspector Tools](tool.png)
+
+#### 2. Discovered Resources
+![MCP Inspector Resources](Resources.png)
 
 ## Database Schema & Seed Data
 
