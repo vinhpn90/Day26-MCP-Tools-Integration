@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Automatically resolve the project root directory
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+ROOT_DIR="$( dirname "$SCRIPT_DIR" )"
+
+# Change working directory to project root
+cd "$ROOT_DIR"
+
 # Clear terminal screen
 clear
 
